@@ -2,6 +2,7 @@
 # Sample of what the output should look
 
 Welcome to the Casino!!!
+
 You have $100.0, how much would you like to wager?
 50.00
 Your Hand: 
