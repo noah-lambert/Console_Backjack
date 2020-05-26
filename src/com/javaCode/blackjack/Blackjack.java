@@ -52,7 +52,7 @@ public class Blackjack {
 			//Player Turn
 			while(continuePlayerTurn) {
 				//Display player cards and current value
-				System.out.println("Your Hand: " + playerHand.toString());
+				System.out.println("Your Hand: " + playerHand.toString() + "\n");
 				System.out.println("Value of Your Hand: " + playerHand.handValue() + "\n");
 				
 				//Display the dealer cards 
@@ -78,7 +78,7 @@ public class Blackjack {
 				}
 
 				if(resp == 2) {
-					System.out.println("\n---------------------------\n");
+					System.out.println("\n------------------------------\n");
 					continuePlayerTurn = false;
 				}
 			} //Player Turn
@@ -133,7 +133,7 @@ public class Blackjack {
 			playerHand.moveAllToDeck(playingDeck);
 			dealerHand.moveAllToDeck(playingDeck);
 			System.out.println("End of Round.\nYou have $" + playerMoney);
-			System.out.println("\n----------------------------\n");
+			System.out.println("\n------------------------------\n");
 			
 			//If player is out of money, Game Over
 			if(playerMoney <= 0) {
@@ -152,7 +152,7 @@ public class Blackjack {
 				System.out.println("Input Error. Playing Again\n");
 			}
 			if(decision == 1) {
-				System.out.println("\n--------------------------\n");
+				System.out.println("\n------------------------------\n");
 			}
 			if(decision == 2) {
 				continueGame = false;
