@@ -4,45 +4,47 @@
 Welcome to the Casino!!!
 You have $100.0, how much would you like to wager?
 50.00
-Your Hand:
-[EIGHT-HEARTS]
-[THREE-DIAMONDS]
+Your Hand: 
+[TWO-DIAMONDS]
+[NINE-SPADES]
+
 Value of Your Hand: 11
 
-Dealer Hand: [NINE-DIAMONDS] and [hidden]
+Dealer Hand: [FIVE-DIAMONDS] and [hidden]
 
 (1)Hit or (2)Stand:  1
 
-You draw a: [SEVEN-SPADES]
+You draw a: [NINE-CLUBS]
 
 Your Hand:
-[EIGHT-HEARTS]
-[THREE-DIAMONDS]
-[SEVEN-SPADES]
-Value of Your Hand: 18
+[TWO-DIAMONDS]
+[NINE-SPADES]
+[NINE-CLUBS]
 
-Dealer Hand: [NINE-DIAMONDS] and [hidden]
+Value of Your Hand: 20
+
+Dealer Hand: [FIVE-DIAMONDS] and [hidden]
 
 (1)Hit or (2)Stand:  2
 
 ------------------------------
 
 Dealer Cards:
-[NINE-DIAMONDS]
-[FOUR-CLUBS]
-Value of Dealer Hand: 13
+[FIVE-DIAMONDS]
+[QUEEN-DIAMONDS]
+Value of Dealer Hand: 15
 
-Dealer Draws: [SIX-DIAMONDS]
+Dealer Draws: [FIVE-HEARTS]
 
 Dealer Cards:
-[NINE-DIAMONDS]
-[FOUR-CLUBS]
-[SIX-DIAMONDS]
-Value of Dealer Hand: 19
+[FIVE-DIAMONDS]
+[QUEEN-DIAMONDS]
+[FIVE-HEARTS]
+Value of Dealer Hand: 20
 
-Dealer Wins: 19 to 18
+Push.
 End of Round.
-You have $50.0
+You have $100.0
 
 ------------------------------
 
