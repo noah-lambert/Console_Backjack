@@ -2,7 +2,6 @@ package com.javaCode.blackjack;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Deck {
 
@@ -80,7 +79,7 @@ public class Deck {
 	public int handValue() {
 		int total_value = 0;
 		int ace = 0;
-		Scanner userInput = new Scanner(System.in);
+		int ace_iter = 0;
 	
 		for( Card card : this.cards ) {
 			switch(card.getValue()) {
@@ -125,19 +124,18 @@ public class Deck {
 				break;
 			}//switch
 			
-			for(int i = 0; i < ace; i++){
+			if(ace == 1) {
 				//Check if an ace worth 11 will bust the hand, if so an ace is worth 1
-				if (total_value <= 10){
-					total_value += 11;
-				}
-				else{
+				if (total_value > 10){
 					total_value += 1;
 				}
-			}//for
+				else{
+					total_value += 11;
+				}
+				ace = ace - 1;
+			}
 		}//for
 		
-		
-		userInput.close();
 		return total_value;
 	}
 	
