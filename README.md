@@ -5,6 +5,7 @@ Welcome to the Casino!!!
 
 You have $100.0, how much would you like to wager?
 50.00
+
 Your Hand: 
 [TWO-DIAMONDS]
 [NINE-SPADES]
